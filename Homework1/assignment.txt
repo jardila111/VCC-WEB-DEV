@@ -1,0 +1,13 @@
+This project is to make some changes and mods to the tic-tac-toe game presented in class. The folder containing the html, css, and js for the game is attached to this project. Download the folder and open it in vs code and study it carefully to understand how it works. Then make necessary changes in any of the 3 files necessary  to achieve the followings:
+
+1) Modify the background of the grid cells to be light yellow.
+
+2) Modify the css for grid divs so the image takes only 60% of the cell, not all of it, as it is now.
+
+3) Change the grid size to be 500 px. and the margin to be 15px
+
+4) Currently when play wins the page shows "You win!" and when computer wins it shows "Computer wins". Change this such that it shows an image of a human player or a computer instead of the word "You" or "Computer". For this you need to add an image element with proper image. I leave this up to you which images you choose to display. You can look for fun images to download from internet or use any other image you like for this, as long as it refers somehow to human vs computer players.
+
+5) Add button to the game, so we can reset the game and start over.
+
+6) Add dropdown menu at the button to choose who plays first. Add a button start so we can start the game. THis is necessary if the first player is computer.
