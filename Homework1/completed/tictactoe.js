@@ -9,12 +9,12 @@ function assignSpace(space, owner)
 {
   const image = document.createElement('img');
   image.src = owner === 'x' ? X_IMAGE_URL : O_IMAGE_URL;
-  space.appendChild(image);
+  space.appendChild(image); // Add the image to the clicked space
 
-  const index = parseInt(space.dataset.index);
+  const index = parseInt(space.dataset.index); // Get the index of the clicked space
   takenBoxes[index] = owner;
-  const indexToRemove = freeBoxes.indexOf(space);
-  freeBoxes.splice(indexToRemove, 1);
+  const indexToRemove = freeBoxes.indexOf(space); 
+  freeBoxes.splice(indexToRemove, 1); // Remove the space from freeBoxes
   space.removeEventListener('click', changeToX);
   console.log('freeBoxes left: ' + freeBoxes.length);
 }
